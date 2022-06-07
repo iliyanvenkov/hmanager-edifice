@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+  <suppress>
+    <notes><![CDATA[
+   file name: liquibase-core-4.5.0.jar
+   ]]></notes>
+    <packageUrl regex="true">^pkg:maven/org\.liquibase/liquibase\-core@.*$</packageUrl>
+    <cpe>cpe:/a:liquibase:liquibase</cpe>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
+   file name: postgresql-42.3.1.jar
+   ]]></notes>
+    <packageUrl regex="true">^pkg:maven/org\.postgresql/postgresql@.*$</packageUrl>
+    <cve>CVE-2022-21724</cve>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
+   file name: postgresql-42.3.1.jar
+   ]]></notes>
+    <packageUrl regex="true">^pkg:maven/org\.postgresql/postgresql@.*$</packageUrl>
+    <cve>CVE-2022-26520</cve>
+  </suppress>
+  <suppress>
+    <notes><![CDATA[
+   file name: guava-29.0-jre.jar
+   ]]></notes>
+    <packageUrl regex="true">^pkg:maven/com\.google\.guava/guava@.*$</packageUrl>
+    <cve>CVE-2020-8908</cve>
+  </suppress>
+  </suppressions>
