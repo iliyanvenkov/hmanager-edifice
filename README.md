@@ -39,10 +39,6 @@ For further reference please consider the following section:
 
 * [Documentation](https://mapstruct.org/documentation/stable/reference/html/#selection-based-on-qualifiers)
 
-### Testing
-
-* [Asserting Lists with AssertJ](https://reflectoring.io/assertj-lists/)
-
 ### Database
 
 CREATE DATABASE hmanager WITH ENCODING='UTF8' OWNER=postgres CONNECTION LIMIT=-1;
